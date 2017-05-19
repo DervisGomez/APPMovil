@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">APPMovil</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="inicio_btnCN">&gt;</string>
+    <string name="inicio_tvCN">Centro de Negocio</string>
+    <string name="sf_tvTitulo">Formato</string>
+    <string name="sf_btnIniciar">INICIAR</string>
+    <string name="tv_siguiente">Siguiente</string>
+    <string name="tv_anterior">Anterior</string>
+       <string name="et_nombre">Nombre</string>
+    <string name="et_centro">Centro de Negocio</string>
+    <string name="et_cargo">Cargo</string>
+    <string name="tv_diligenciar">Diligenciar</string>
+    <string name="et_buscar">Buscar Cedula</string>
+    <string name="tv_descargar">Descargar Datos</string>
+    <string name="btn_llenar">Llenar Nuevamente</string>
+    <string name="btn_regresar">Regresar al Inicio</string>
+    <string name="et_cedula">Cedula</string>
+    <string name="tv_subir">Subir Datos</string>
+
+</resources>

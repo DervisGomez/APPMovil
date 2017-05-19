@@ -1,0 +1,212 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/azul_4"
+    android:gravity="center_vertical"
+    tools:context="com.app.main.InicioActivity" >
+
+    <ScrollView
+        android:id="@+id/scrollView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical" >
+
+            <TextView
+                android:id="@+id/tvPregunta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/margin_all"
+                android:text=""
+                android:textColor="@color/gris_1"
+                android:textSize="@dimen/title_size" />
+
+            <EditText
+                android:id="@+id/etArea"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/esq1_gris2"
+                android:layout_margin="@dimen/margin_all"
+                android:lines="4"
+                android:padding="@dimen/margin_all"
+                android:inputType="textMultiLine" >
+
+                <requestFocus />
+            </EditText>
+
+            <EditText
+                android:id="@+id/etTexto"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_all"
+                android:background="@drawable/esq1_gris2"
+                android:padding="@dimen/margin_all" />
+
+            <EditText
+                android:id="@+id/etNumero"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="@dimen/margin_all"
+                android:background="@drawable/esq1_gris2"
+                android:padding="@dimen/margin_all"
+                android:inputType="number" />
+			<CheckBox
+                android:id="@+id/cb0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gris_2"
+	            android:layout_margin="@dimen/margin_all"
+                android:text="" />
+            <CheckBox
+                android:id="@+id/cb1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gris_2"
+	            android:layout_margin="@dimen/margin_all"
+                android:text="" />
+            <CheckBox
+                android:id="@+id/cb2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gris_2"
+	            android:layout_margin="@dimen/margin_all"
+                android:text="" />
+            <CheckBox
+                android:id="@+id/cb3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gris_2"
+	            android:layout_margin="@dimen/margin_all"
+                android:text="" />
+            <CheckBox
+                android:id="@+id/cb4"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gris_2"
+	            android:layout_margin="@dimen/margin_all"
+                android:text="" />
+            <CheckBox
+                android:id="@+id/cb5"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/gris_2"
+	            android:layout_margin="@dimen/margin_all"
+                android:text="" />
+			
+            <RadioGroup 
+                android:id="@+id/rgOpcion"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content">
+                
+                <RadioButton
+	                android:id="@+id/rb0"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textColor="@color/gris_2"
+	                android:layout_margin="@dimen/margin_all"
+	                android:text="" />
+                
+                <RadioButton
+	                android:id="@+id/rb1"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textColor="@color/gris_2"
+	                android:layout_margin="@dimen/margin_all"
+	                android:text="" />
+                
+                <RadioButton
+	                android:id="@+id/rb2"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textColor="@color/gris_2"
+	                android:layout_margin="@dimen/margin_all"
+	                android:text="" />
+                
+                <RadioButton
+	                android:id="@+id/rb3"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textColor="@color/gris_2"
+	                android:layout_margin="@dimen/margin_all"
+	                android:text="" />
+                
+                <RadioButton
+	                android:id="@+id/rb4"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textColor="@color/gris_2"
+	                android:layout_margin="@dimen/margin_all"
+	                android:text="" />
+                
+                <RadioButton
+	                android:id="@+id/rb5"
+	                android:layout_width="wrap_content"
+	                android:layout_height="wrap_content"
+	                android:textColor="@color/gris_2"
+	                android:layout_margin="@dimen/margin_all"
+	                android:text="" />
+                
+            </RadioGroup>
+
+
+            <Spinner
+                android:id="@+id/spOpcion"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/combo"
+                android:layout_gravity="center_horizontal"
+                android:layout_margin="@dimen/margin_all"
+                android:background="@drawable/esq1_gris2" />
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <Button
+                    android:id="@+id/btnSiguienteP"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_alignParentBottom="true"
+                    android:layout_alignParentRight="true"
+                    android:layout_margin="@dimen/margin_all"
+                    android:background="@drawable/cir_verde2"
+                    android:drawableLeft="@drawable/right"
+                    android:padding="8dp"
+                    android:textColor="@color/gris_1" />
+
+                <TextView
+                    android:id="@+id/tvSiguienteP"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/btnSiguienteP"
+                    android:layout_alignBottom="@+id/btnSiguienteP"
+                    android:layout_toLeftOf="@+id/btnSiguienteP"
+                    android:text=""
+                    android:textColor="@color/gris_1"
+                    android:textSize="@dimen/tv_siguiente" />
+
+                <TextView
+                    android:id="@+id/tvPreguntas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBaseline="@+id/tvSiguienteP"
+                    android:layout_alignBottom="@+id/tvSiguienteP"
+                    android:layout_alignParentLeft="true"
+                    android:text="@string/tv_anterior"
+                    android:textColor="@color/gris_1"
+                    android:textSize="@dimen/tv_siguiente" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
